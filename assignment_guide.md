@@ -30,19 +30,19 @@ In this assignment, we will gain hands-on experience with:
  
 ### 3.2. (15%) Detect and localize ArUco marker.
 - (10%) Document the ArUco marker (ID \#) and its picture in [README](README.md).
-- (10%) Subscribe to the topic bears the `Image` message and detect the **interested** ArUco marker.
+- (5%) Subscribe to the topic bears the `Image` message and detect the **interested** ArUco marker.
   Extract corner coordinates of the marker.
 
 ### 3.3. (25%) Follow ArUco Marker
-- Develop an approach to guide your robot always following the marker.
-  Publish appropriate `Twist` like message at a reasonable rate to guide your robot approaching the marker.
+Develop an approach to guide your robot always following the marker.
+Publish appropriate `Twist` like message at a reasonable rate to guide your robot approaching the marker.
 
 
-### 3.5. (40%) Demonstration
+### 3.4. (40%) Demonstration
 Demonstrate "chemical reactions" between you and your robot.
 Use the **proposed** ArUco marker guiding your robot finish the journey described in Project 2.  
 
-### 3.6. (10%) Package ArUco follower
+### 3.5. (10%) Package ArUco follower
 Create a package to host all your executables and make sure `ros2 run <package_name> <executable_name>` command is available after the package is built.
 
 
