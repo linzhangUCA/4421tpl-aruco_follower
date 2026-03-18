@@ -26,7 +26,7 @@ In this assignment, we will gain hands-on experience with:
 
 ### 3.1. (10%) Publish [`Image`](https://docs.ros2.org/foxy/api/sensor_msgs/msg/Image.html) message from camera module.
 - Publish an appropriate ROS 2 topic with reasonable image resolution and publishing rate.
-  Write down commands for doing this job in [README](README.md).
+  Write down commands for doing this in [README](README.md).
  
 ### 3.2. (15%) Detect and localize ArUco marker.
 - (10%) Document the ArUco marker (ID \#) and its picture in [README](README.md).
